@@ -19,7 +19,7 @@ def call(Map config) {
         agent any
         environment {
             REPO_NAME = "${config.repoName}"
-            DOCKER_LINUX_SERVER = 'up-ub1604.sixeyed'            
+            DOCKER_LINUX_SERVER = 'dodockerlinux'            
             DOCKER_WINDOWS_SERVER = 'up-win2019.sixeyed'
         }
         stages {
