@@ -20,7 +20,7 @@ def call(Map config) {
         environment {
             REPO_NAME = "${config.repoName}"
             DOCKER_LINUX_SERVER = 'dodockerlinux'            
-            DOCKER_WINDOWS_SERVER = 'dodockerwin2019'
+            DOCKER_WINDOWS_SERVER = 'dodockerwin19'
         }
         stages {
             stage('build') {
